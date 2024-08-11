@@ -8,6 +8,7 @@ const bcrypt = require('bcrypt');
 const fs = require('fs');
 const path = require('path');
 const uuid = require('uuid');
+/*
 const puppeteer = require('puppeteer');
 const qrcode = require('qrcode-terminal');
 const { Client, LocalAuth } = require('whatsapp-web.js');
@@ -33,7 +34,7 @@ client.on('qr', qr => {
 });
 
 client.initialize();
-
+*/
 async function editarEstudio(estudio) {
     const ID = mongoose.Types.ObjectId.createFromHexString(estudio._id);
     const estudo_sin_editar = await Estudio.findById(ID);

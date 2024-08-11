@@ -2,7 +2,7 @@ const fs = require('fs');
 const mongoose = require("mongoose");
 const path = require('path');
 
-const URI = "mongodb://127.0.0.1/11deabril";
+const URI = "mongodb+srv://juli10capo:K5vUbroOWDUN5ham@consultorio.apuakw2.mongodb.net/?retryWrites=true&w=majority&appName=consultorio";
 
 const FILES_PATH = path.join(__dirname, 'files');
 
