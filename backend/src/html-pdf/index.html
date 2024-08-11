@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Informe</title>
+        <style>
+    @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+    @page {
+      size: A4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .body-informe {
+      font-family: "Quicksand", sans-serif;
+      font-optical-sizing: auto;
+      margin: 1cm;
+      background-color: rgb(103, 103, 103);
+    }
+
+    .container {
+      width: 80%;
+      max-width: 21cm;
+      /*height: 29.7cm;*/
+      height: fit-content;
+      margin: auto;
+      background-color: rgb(255, 255, 255);
+      box-sizing: border-box;
+    }
+
+    .header {
+      text-align: center;
+      border-bottom: 1px solid #000;
+    }
+
+    .contenedor-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 90px;
+    }
+
+    .titulo {
+      width: 100%;
+      font-size: 23px;
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .contenedor-info {
+      margin-bottom: 10px;
+    }
+
+    .info {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+    .info-section {
+      margin: 10px;
+      gap: 0px;
+      display: flex;
+      justify-content: space-around;
+      font-weight: bold;
+    }
+
+    .study {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .study-name {
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .study-content {
+      font-size: 14px;
+    }
+
+    .footer {
+      text-align: right;
+      margin-top: 1cm;
+      font-size: 15px;
+    }
+
+    .firma {
+      width: 220px;
+    }
+</style>
+    </head>
+
+    <body class="body-informe">
+    <div class="container">
+      <header class="header">
+        <div class="contenedor-logo">
+          <span class="titulo">CONSULTORIO 11 DE ABRIL 130</span>
+        </div>
+        <div class="contenedor-info">
+          <span class="info">
+            RADIOLOGIA GENERAL DIGITAL - TOMOGRAFÍA DENTAL COMPUTADA 3D
+            <br />
+            ECOGRAFIA GENERAL - DOPPLER COLOR - ECOCARDIOGRAFIA
+          </span>
+          <br />
+          <span class="info">11 de Abril 130 Bahía Blanca - Buenos Aires Tel: 291-523-3604</span>
+        </div>
+      </header>
+      <main>
+        <div class="info-section">
+          <span class="fecha">Fecha: 08/08/2024</span>
+          <span class="nombre">Nombre: HARRIS PABLO</span>
+          <span class="dni">DNI: 30565063</span>
+        </div>
+        
+        <div class="study">
+        <span class="study-name">
+            MANO DERECHA FRENTE Y OBLICUA
+        </span>
+        <div class="study-content"><br>Imagen compatible con solucion de continuidad cortical<br>a nivel de la base del VTO metacarpiano.<br>Puede corresponder a fractura con leve desplazamiento.<br>Control de acuerdo a evolucion.<br><br><br></div>
+        </div>
+        
+      </main>
+      <footer class="footer">
+        <p>
+          <img class="firma" src="./firma-digital.jpeg" alt="" />
+        </p>
+      </footer>
+    </div>
+  </body>
+
+    </html>
